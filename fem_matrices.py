@@ -100,7 +100,7 @@ if __name__ == "__main__":
     D2 = Circle(Point(0.3,0.7),0.05)
     D3 = Circle(Point(0.82,0.25),0.05)
     domain=D1-D2-D3
-    mesh = generate_mesh(domain,20)
+    mesh = generate_mesh(domain,200)
     
     
     #Define the first part of the middle functions: (1+ mu k(x))^2 
